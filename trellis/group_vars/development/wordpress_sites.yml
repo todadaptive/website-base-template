@@ -1,0 +1,19 @@
+# Documentation: https://roots.io/trellis/docs/local-development-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/development/vault.yml
+
+wordpress_sites:
+  adaptivemobile.com:
+    site_hosts:
+      - canonical: adaptivemobile.dev
+        redirects:
+          - www.adaptivemobile.dev
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: admin@adaptivemobile.dev
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
