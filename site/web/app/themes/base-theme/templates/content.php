@@ -6,4 +6,5 @@
   <div class="entry-summary">
     <?php the_excerpt(); ?>
   </div>
+  The test text goes in here<i class="fa fa-microchip" aria-hidden="true"></i><i class="fa fa-microchip" aria-hidden="true"></i><i class="fa fa-microchip" aria-hidden="true"></i><i class="fa fa-microchip" aria-hidden="true"></i><i class="fa fa-microchip" aria-hidden="true"></i><i class="fa fa-microchip" aria-hidden="true"></i><i class="fa fa-microchip" aria-hidden="true"></i><i class="fa fa-microchip" aria-hidden="true"></i><i class="fa fa-microchip" aria-hidden="true"></i>
 </article>
